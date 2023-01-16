@@ -1,17 +1,17 @@
 {
-	"output_folder" : "",
+	"output_folder" : "results",
 
-	"database" : "",
+	"database" : "sra",
 	
-	"query" : "",
+	"query" : "query terms",
 	"accession" : "",
-	"organism" : "",
-	"layout" : "",
+	"organism" : "Homo sapiens",
+	"layout" : "paired",
 	"mbases" : "",
-	"publication_date" : "",
-	"platform" : "",
-	"selection" : "",
-	"source" : "",
-	"strategy" : "",
+	"publication_date" : "dd-mm-yyyy:dd-mm-yyyy",
+	"platform" : "illumina",
+	"selection" : "cdna",
+	"source" : "transcriptomic",
+	"strategy" : "RNA-seq",
 	"max_results" : 20
 }

@@ -1,0 +1,17 @@
+{
+	"output_folder" : "test_1",
+
+	"database" : "sra",
+
+	"query" : "ribosome profiling",
+	"accession" : "",
+	"organism" : "",
+	"layout" : "",
+	"mbases" : "",
+	"publication_date" : "01-01-2013:01-01-2020",
+	"platform" : "",
+	"selection" : "",
+	"source" : "",
+	"strategy" : "",
+	"max_results" : 1000
+}

@@ -22,7 +22,7 @@ The searching criteria are:
 - *organism* : name of species of interest.
 - *layout* : library layout: "paired" or "single".
 - *mbases* : sample size rounded to nearest mb.
-- *publication_date* : publication date of the metadata in the format: "01-11-2020", or "01-01-2012:01-01-2023".
+- *publication_date* : publication date of the metadata in the format: "dd-mm-yyyy", or "dd-mm-yyyy:dd-mm-yyyy".
 - *platform* : sequencing platform, e.g. "Illumina".
 - *selection* : library selection, e.g. "cdna".
 - *source* : library source, e.g. "transcriptomic".
@@ -33,7 +33,7 @@ The searching criteria are:
 Note: a query needs at least one criteria among: *query*, *accession*, *organism*, *layout*, *mbases*, *publication-date*, *platform*, *selection*, *source*, *strategy*. Field not relevant for the search can be left blank, with "".
 
 
-To run the software, you need to pass the json file as input to the main function, as:
+Run the software by passing the json file as input to the main function:
 ```
 python ./src/sra_fetch.py -i search_params.json
 ```

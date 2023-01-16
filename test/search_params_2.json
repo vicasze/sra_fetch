@@ -1,0 +1,17 @@
+{
+	"output_folder" : "test_2",
+
+	"database" : "sra",
+
+	"query" : "circadian denr",
+	"accession" : "",
+	"organism" : "",
+	"layout" : "",
+	"mbases" : "",
+	"publication_date" : "01-01-2019:01-08-2019",
+	"platform" : "",
+	"selection" : "",
+	"source" : "",
+	"strategy" : "",
+	"max_results" : ""
+}
