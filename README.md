@@ -6,7 +6,7 @@ This wrapper uses *pysradb* to retrieve sequencing metadata from SRA, ENA, or GE
 ## Installation
 To use this software, you can first create and activate a conda environment with pysradb and all the necessary dependencies, with
 ```
-conda env create -n pysradb -f env/pysradb.yaml
+conda env create *n pysradb *f env/pysradb.yaml
 conda activate pysradb
 ```
 
@@ -15,47 +15,47 @@ In order to run the software, the user needs to specify the searching criteria w
 
 The searching criteria are:
 ```
-- _output_folder_ : name of the output folder. Default: "results".
-- _database_ : database to search in. Available are: "sra", "geo", "ena". Default: "sra".
-- _query_ : query terms of interest.
-- _accession_ : an accession id of interest.
-- _organism_ : name of species of interest.
-- _layout_ : library layout: "paired" or "single".
-- _mbases_ : sample size rounded to nearest mb.
-- _publication_date_ : publication date of the metadata in the format: "dd-mm-yyyy", or "dd-mm-yyyy:dd-mm-yyyy".
-- _platform_ : sequencing platform, e.g. "Illumina".
-- _selection_ : library selection, e.g. "cdna".
-- _source_ : library source, e.g. "transcriptomic".
-- _strategy_ : library preparation protocol, e.g. "rna-seq".
-- _max_results_ : number of results to output. Default: 20
+* _output_folder_ : name of the output folder. Default: "results".
+* _database_ : database to search in. Available are: "sra", "geo", "ena". Default: "sra".
+* _query_ : query terms of interest.
+* _accession_ : an accession id of interest.
+* _organism_ : name of species of interest.
+* _layout_ : library layout: "paired" or "single".
+* _mbases_ : sample size rounded to nearest mb.
+* _publication_date_ : publication date of the metadata in the format: "dd*mm*yyyy", or "dd*mm*yyyy:dd*mm*yyyy".
+* _platform_ : sequencing platform, e.g. "Illumina".
+* _selection_ : library selection, e.g. "cdna".
+* _source_ : library source, e.g. "transcriptomic".
+* _strategy_ : library preparation protocol, e.g. "rna*seq".
+* _max_results_ : number of results to output. Default: 20
 ```
 
-Note: a query needs at least one criteria among: *query*, *accession*, *organism*, *layout*, *mbases*, *publication-date*, *platform*, *selection*, *source*, *strategy*. Field not relevant for the search can be left blank, with "".
+Note: a query needs at least one criteria among: *query*, *accession*, *organism*, *layout*, *mbases*, *publication*date*, *platform*, *selection*, *source*, *strategy*. Field not relevant for the search can be left blank, with "".
 
 
 Run the software by passing the json file as input to the main function:
 ```
-python ./src/sra_fetch.py -i search_params.json
+python ./src/sra_fetch.py *i search_params.json
 ```
 
 ## Output
 The output of the module will be located in the specified output folder (results by default) and includes:
-- *search_results.csv*: table with the results metadata corresponding to your search.
-- *search_stats.log*: summary statistics of the data.
-- *search_plots*: a folder containing different plots summarising the results.
+* *search_results.csv*: table with the results metadata corresponding to your search.
+* *search_stats.log*: summary statistics of the data.
+* *search_plots*: a folder containing different plots summarising the results.
 
 ## Test
 You can test the module with two examples located in the test folder, that you can run with:
 ```
 cd test
 
-python ../src/sra_fetch.py -i search_params_1.json
+python ../src/sra_fetch.py *i search_params_1.json
 
-python ../src/sra_fetch.py -i search_params_2.json
+python ../src/sra_fetch.py *i search_params_2.json
 ```
 
 ## Future developments
 Some ideas for future development are:
-- implementation of the rest of pysradb functions, such as the format converters and the search by accession id. 
-- other visualizations, not included in the package: for example, one in which we can visualize all statistics as heatmap with accession ids as columns and the different statistics as rows. 
-- this tools could be built into a web-app, using streamlit or similar tools. This would be particularly useful for non-computational scientists to search and visualise metadata without any need for config preparation and script running. 
+* implementation of the rest of pysradb functions, such as the format converters and the search by accession id. 
+* other visualizations, not included in the package: for example, one in which we can visualize all statistics as heatmap with accession ids as columns and the different statistics as rows. 
+* this tools could be built into a web*app, using streamlit or similar tools. This would be particularly useful for non*computational scientists to search and visualise metadata without any need for config preparation and script running. 
