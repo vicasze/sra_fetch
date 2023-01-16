@@ -1,0 +1,17 @@
+{
+	"output_folder" : "",
+
+	"database" : "",
+	
+	"query" : "",
+	"accession" : "",
+	"organism" : "",
+	"layout" : "",
+	"mbases" : "",
+	"publication_date" : "",
+	"platform" : "",
+	"selection" : "",
+	"source" : "",
+	"strategy" : "",
+	"max_results" : 20
+}
