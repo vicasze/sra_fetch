@@ -15,18 +15,18 @@ In order to run the software, the user needs to specify the searching criteria w
 
 The searching criteria are:
 ```
-* *output*folder* : name of the output folder. Default: *results*.
-* *database* : database to search in. Available are: *sra*, *geo*, *ena*. Default: *sra*.
-* *query* : query terms of interest.
-* *accession* : an accession id of interest.
-* *organism* : name of species of interest.
-* *layout* : library layout: *paired* or *single*.
-* *mbases* : sample size rounded to nearest mb.
-* *publication*date* : publication date of the metadata in the format: *dd-mm-yyyy*, or *dd-mm-yyyy:dd-mm-yyyy*.
-* *platform* : sequencing platform, e.g. *Illumina*.
-* *selection* : library selection, e.g. *cdna*.
-* *source* : library source, e.g. *transcriptomic*.
-* *strategy* : library preparation protocol, e.g. *rna-seq*.
+* "output_folder" : name of the output folder. Default: "results".
+* "database" : database to search in. Available are: "sra", "geo", "ena". Default: "sra".
+* "query" : query terms of interest.
+* "accession" : an accession id of interest.
+* "organism" : name of species of interest.
+* "layout" : library layout: "paired" or "single".
+* "mbases" : sample size rounded to nearest mb.
+* "publication"date" : publication date of the metadata in the format: "dd-mm-yyyy", or "dd-mm-yyyy:dd-mm-yyyy".
+* "platform" : sequencing platform, e.g. "Illumina".
+* "selection" : library selection, e.g. "cdna".
+* "source" : library source, e.g. "transcriptomic".
+* "strategy" : library preparation protocol, e.g. "rna-seq".
 * "max"results" : number of results to output. Default: 20
 ```
 
