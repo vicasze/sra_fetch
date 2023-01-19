@@ -1,6 +1,6 @@
 # Metadata searching with sra_fetch
 
-This repo describes an interface that uses *[pysradb]*(https://github.com/saketkc/pysradb) to retrieve sequencing metadata from SRA, ENA, or GEO databases. It allows the user to select the filtering criteria of interest, and retrieve results metadata, as well as relevant statistics and visualisations summarising the search.
+This repo describes an interface that uses [pysradb](https://github.com/saketkc/pysradb) to retrieve sequencing metadata from SRA, ENA, or GEO databases. It allows the user to select the filtering criteria of interest, and retrieve results metadata, as well as relevant statistics and visualisations summarising the search.
 
 
 ## Installation
