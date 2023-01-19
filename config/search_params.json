@@ -4,14 +4,14 @@
 	"database" : "sra",
 	
 	"query" : "query terms",
-	"accession" : "",
+	"accession" : "SRR_id",
 	"organism" : "Homo sapiens",
 	"layout" : "paired",
-	"mbases" : "",
+	"mbases" : "20",
 	"publication_date" : "dd-mm-yyyy:dd-mm-yyyy",
-	"platform" : "illumina",
-	"selection" : "cdna",
-	"source" : "transcriptomic",
-	"strategy" : "RNA-seq",
+	"platform" : "sequencing_platform",
+	"selection" : "selection_method",
+	"source" : "genomic_source",
+	"strategy" : "library_preparation",
 	"max_results" : 20
 }
